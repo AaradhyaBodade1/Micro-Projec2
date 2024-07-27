@@ -1,0 +1,263 @@
+.navvbar {
+    display: flex;
+    background-color: #6f6af7;
+    margin: auto;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+  }
+  
+  .navlogo {
+    font-family: "Delius Unicase", cursive;
+    font-size: 32px;
+  }
+  
+  .navhamburger img {
+    height: 32px;
+  }
+  
+  .navlist ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navlist ul li {
+    margin-right: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 32px;
+  }
+  
+  .navlist ul li select {
+    border: none;
+    font-family: "DM Sans", sans-serif;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .navlist ul li input {
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+  }
+  
+  .navlist ul li:last-of-type {
+    position: relative;
+  }
+  
+  .navlist ul li img {
+    position: absolute;
+    top: 17px;
+    right: 32px;
+    height: 16px;
+  }
+  
+  .body {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+  }
+  
+  .body-left img {
+    height: 50vh;
+    padding-left: 25px;
+  }
+  
+  .body-right {
+    background-color: #e5d8ff;
+    padding: 30px;
+    border-radius: 20px;
+    height: 46vh;
+    width: 75%;
+    box-sizing: border-box;
+  }
+  
+  .body-right p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #6f7373;
+    font-family: "DM Sans";
+  }
+  
+  .container {
+    display: flex;
+    background-color: #483eff;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    border-radius: 21px;
+    height: 60vh;
+    margin-bottom: 10vh;
+  }
+  
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .left-container button {
+    padding: 15px 35px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 12px;
+    color: white;
+    font-weight: 700;
+    border-style: solid;
+    width: 297px;
+    height: 99.75px;
+  }
+  
+  .left-container button:first-of-type {
+    background: #bce0f6;
+    color: black;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+  }
+  
+  .right-container {
+    box-sizing: border-box;
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    margin: 2% 0 2% 0;
+    border-radius: 20px;
+    padding: 20px 30px;
+    position: relative;
+  }
+  
+  .info-heading {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.105em;
+    color: #04285a;
+    font-family: 'Inter';
+  }
+  
+  .info {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.105em;
+    color: #04285a;
+  }
+  
+  .info span {
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.105em;
+    color: #04285a;
+  }
+  
+  .next-button {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 6px;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+  }
+  
+  .next-button img {
+    width: 20px;
+    margin-left: 7px;
+  }
+  
+  .card-container {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    width: 21%;
+    padding: 10px 15px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .card-1 {
+    background: #929dff;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+  }
+  
+  .card-2 {
+    background: #734cf2;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+  }
+  
+  .card-3 {
+    background: #d288ff;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+  }
+  
+  .card-4 {
+    background: #000000;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+  }
+  
+  .help {
+    background-color: white;
+    border-radius: 100%;
+    position: fixed;
+    right: 60px;
+    bottom: 20px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .help img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .social {
+    position: sticky;
+    top: 80px;
+    margin-top: 25vh;
+    float: right;
+  }
+  
+  .social img {
+    height: 40px;
+    display: block;
+    width: fit-content;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
